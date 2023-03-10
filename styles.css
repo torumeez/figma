@@ -111,15 +111,16 @@ header {
     margin-top: 20rem;
     margin-bottom: 6rem;
     font-size: 75px;
-  }
-
-  .service-boxes {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+  }         
+          
+  .service-boxes {          
+    display: grid;          
+    grid-template-columns: repeat(2, 1fr);          
     grid-template-rows: repeat(2, 1fr);
-  }
-
-  .box1 {
+             
+  }         
+          
+  .box1 {         
     width: 458.51px;
     height: 416.95px;
     background-color: #F2F2F2;
@@ -223,6 +224,8 @@ header {
     color: #333;
     text-decoration: none;
   }
+
+
   
 
   
