@@ -98,36 +98,100 @@ CSS
 }
 
 
-.customer * {
-  color: #fff;
+.profile_img img{
+  width: 323px;
+  height: 410px;
+  margin-left: 3rem;
 }
 
+.review_title{
+  padding-bottom: 60px;
+  margin-top: 20rem;
+  font-weight: 400;
+  font-size: 74px;
+  color: white;
+}
 
-.customer h1 {
-  text-align: center;
+.reviews{
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 15em; 
+}
+
+.review{
+  display: flex;
+}
+
+.user_info{
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+
+.text_title{
+  padding-left: 40px;
+  font-weight: 400;
+  font-size: 58px;
+  color: white;
+}
+
+.review_text{
+  padding-left: 40px;
+  font-weight: 300;
+  font-size: 30px;
+  color: white;
+}
+
+.name{
+  padding-left: 40px;
+  font-weight: 300;
+  font-size: 22px;
+  color: white;
+}
+
+footer {
+  background-color: #fff;
+  color: #000000;
+  padding: 20px 0;
   
 }
 
-
-.ceo-content {
+.container {
+  max-width: 960px;
+  margin: 0 auto;
   display: flex;
-  margin: 20px;
-  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .pp {
+  margin: 0;
 }
 
-
-.ceo-content h2 {
-  font-size: 24px;
+.pp {
   font-weight: bold;
-  margin: 10px 0;
 }
-.ceo-pic {
+
+.ull {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+.ull .lii {
   margin-right: 20px;
 }
 
-{
-  
+.ull .lii .aa {
+  color: #333;
+  text-decoration: none;
 }
+
+
 
 
 

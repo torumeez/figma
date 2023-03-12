@@ -11,6 +11,11 @@
         <header>
           <div class="logo">
             <h3>LOGO</h3>
+            <div class="burger-icon">
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
           </div>
           <nav>
             <ul>
@@ -113,7 +118,14 @@
             </ul>
           </div>
         </footer>
-        
+        <script>
+          const burgerIcon = document.querySelector('.burger-icon');
+          const headerButtons = document.querySelector('.header_buttons');
+
+          burgerIcon.addEventListener('click', () => {
+              headerButtons.style.display = headerButtons.style.display === 'block' ? 'none' : 'block';
+          });
+      </script>
       </body>
     </html>
     
