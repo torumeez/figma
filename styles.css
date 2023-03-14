@@ -244,11 +244,6 @@ header {
 
 
   @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-device-pixel-ratio: 2){
-    
-    nav {
-      display: none;
-      z-index: 1
-    }
 
     header{
       display: flex;
@@ -260,7 +255,7 @@ header {
       
     }
 
-    .nav {
+    nav {
       display: none;
       position: absolute;
       top: 70px;
@@ -272,6 +267,11 @@ header {
       text-align: center;
     }
 
+    ul {
+      display: flex;
+      flex-direction: column;
+    }
+
     .text-1 {
       font-size: 20px;
       width: 90%;
@@ -281,9 +281,65 @@ header {
       font-size: 50px;
     }
 
-    .pic {
-      max-width: 377px;
+    .pic img {
+      
+      width: 377px;
     }
+
+    .image-grid {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+    }
+
+    .img-griddy {
+      width: 100%;
+      overflow-x: auto;
+      gap: 10px;
+    }
+    
+    .image-grid2{
+      width: 100%;
+      overflow-x: auto;
+      
+    }
+
+    .text-2 {
+      width: 100%;
+      height: auto;
+      font-size: 17px;
+    }
+
+    .service-boxes {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      overflow-x: auto;
+      gap: 10px;
+    }
+
+    .email {
+      font-size: 24px;
+      width: 13rem;
+    }
+
+    .ull{
+      display: none;
+    }
+     
+    .container {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      background-color: black;
+      color: white;
+    }
+
+    footer {
+      background-color: black;
+    }
+
+    
 
     
 

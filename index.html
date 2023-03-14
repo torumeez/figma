@@ -11,13 +11,14 @@
         <header>
           <div class="logo">
             <h3>LOGO</h3>
-            <div class="burger-icon">
+            
+          </div>
+          <div class="burger-icon">
               <span></span>
               <span></span>
               <span></span>
           </div>
-          </div>
-          <nav>
+          <nav class="header-buttons">
             <ul>
               <li><a href="home.html">Home</a></li>
               <li><a href="#">About</a></li>
@@ -36,35 +37,36 @@
             <div class="portfolio-head">
                 <p>Portfolio</p>
             </div>
-
-            <div class="image-grid">
-              <div class="pic">
-                <img src="https://cdn.discordapp.com/attachments/1000854977700433941/1082709629202599986/kaamera.png" alt="Image 1">
-              </div>
-              <div class="pic">
-                <img src="https://cdn.discordapp.com/attachments/1000854977700433941/1082709630448308366/klapid.png" alt="Image 2">
-              </div>
-              <div class="pic">
-                <img src="https://cdn.discordapp.com/attachments/1000854977700433941/1082709630205054996/trimmer.png" alt="Image 3">
-              </div>
-              <div class="pic">
-                <img src="https://cdn.discordapp.com/attachments/1000854977700433941/1082709629928214668/optika.png" alt="Image 4">
-              </div>
-              <div class="pic">
-                <img src="https://cdn.discordapp.com/attachments/1000854977700433941/1082709629663969320/kolar.png" alt="Image 5">
-              </div>
-              <div class="pic">
-                <img src="https://cdn.discordapp.com/attachments/1000854977700433941/1082709629429108857/polaroid.png" alt="Image 6">
+            <div class="img-griddy">
+              <div class="image-grid">
+                
+                <div class="pic">
+                  <img src="https://cdn.discordapp.com/attachments/1000854977700433941/1082709629202599986/kaamera.png" alt="Image 1">
+                </div>
+                <div class="pic">
+                  <img src="https://cdn.discordapp.com/attachments/1000854977700433941/1082709630448308366/klapid.png" alt="Image 2">
+                </div>
+                <div class="pic">
+                  <img src="https://cdn.discordapp.com/attachments/1000854977700433941/1082709630205054996/trimmer.png" alt="Image 3">
+                </div>
+                <div class="pic">
+                  <img src="https://cdn.discordapp.com/attachments/1000854977700433941/1082709629928214668/optika.png" alt="Image 4">
+                </div>
+                <div class="pic">
+                  <img src="https://cdn.discordapp.com/attachments/1000854977700433941/1082709629663969320/kolar.png" alt="Image 5">
+                </div>
+                <div class="pic">
+                  <img src="https://cdn.discordapp.com/attachments/1000854977700433941/1082709629429108857/polaroid.png" alt="Image 6">
+                </div>
               </div>
             </div>
-
           
           <div class="about">
             <p>About</p>
           </div>
 
           <div class="text-2">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci odio amet consectetur volutpat sodales a lectus a. Et gravida tincidunt morbi habitasse. Ultrices magna laoreet ornareLorem ipsum dolor sit amet, consectetur adipiscing elit. Orci odio amet consectetur volutpat sodales a lectus a. Et gravida tincidunt morbi habitasse</p>
+            <p class="text33">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci odio amet consectetur volutpat sodales a lectus a. Et gravida tincidunt morbi habitasse. Ultrices magna laoreet ornareLorem ipsum dolor sit amet, consectetur adipiscing elit. Orci odio amet consectetur volutpat sodales a lectus a. Et gravida tincidunt morbi habitasse</p>
           </div>
 
           <div class="image-grid2">
@@ -120,7 +122,7 @@
         </footer>
         <script>
           const burgerIcon = document.querySelector('.burger-icon');
-          const headerButtons = document.querySelector('.header_buttons');
+          const headerButtons = document.querySelector('.header-buttons');
 
           burgerIcon.addEventListener('click', () => {
               headerButtons.style.display = headerButtons.style.display === 'block' ? 'none' : 'block';
